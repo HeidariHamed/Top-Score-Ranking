@@ -78,6 +78,6 @@ You can test them using postman or any other rest client.
 
 To launch your application's tests, run:
 
-    ./gradlew test integrationTest jacocoTestReport
+    ./gradlew test integrationTest 
     
     
