@@ -1,10 +1,7 @@
 package com.game.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.Pattern;
@@ -13,6 +10,7 @@ import java.util.Objects;
 
 @Builder
 @Getter
+@Setter
 @NoArgsConstructor
 @AllArgsConstructor
 public class GameDto {
@@ -27,8 +25,11 @@ public class GameDto {
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime time;
 
-
-
+    public GameDto(@Pattern(regexp = "^[A-Za-z]*$", message = "Player name must contain only letters") String player, @Min(1) int score, LocalDateTime time) {
+        this.player = player;
+        this.score = score;
+        this.time = time;
+    }
 
     @Override
     public String toString() {
