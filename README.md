@@ -1,7 +1,7 @@
 # Top Score Game
 
 Basic Java Spring Test: Top Score Ranking
-Build Restful API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Hibernate.
+Build Restful API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Gradle.
 
 ## Requirements
 
@@ -16,13 +16,15 @@ Build Restful API for a simple Note-Taking application using Spring Boot, Mysql,
 **1. Clone the application**
 
 ```bash
-git clone https://github.com/callicoder/spring-boot-mysql-rest-api-tutorial.git
+git clone https://github.com/HeidariHamed/Top-Score-Ranking.git
 ```
 
 **2. Create Mysql database**
 ```bash
 create database game
 ```
+Exmaple file are provided in: src/resources/data.sql
+
 
 **3. Change mysql username and password as per your installation**
 
@@ -47,9 +49,9 @@ The app will start running at <http://localhost:8080>.
 
 ## Explore Rest APIs
 
-The app defines following CRUD APIs.
+The app defines following APIs.
 
-Get Score
+Get score
 
     GET /api/v1/player/{id}
     
@@ -65,10 +67,15 @@ Player's history
     
     GET /api/v1/player/{player}
     
-Add Player
+Add player
 
     POST /api/v1/player
     
+    {
+    "player":"hamed",
+    "score": 100,
+    "time":"2021-02-20 10:10:00"
+    }
     
 
 You can test them using postman or any other rest client.
@@ -78,6 +85,6 @@ You can test them using postman or any other rest client.
 
 To launch your application's tests, run:
 
-    ./gradlew test integrationTest jacocoTestReport
+    ./gradlew test integrationTest 
     
     
