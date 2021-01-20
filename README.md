@@ -23,7 +23,7 @@ git clone https://github.com/HeidariHamed/Top-Score-Ranking.git
 ```bash
 create database game
 ```
-Exmaple file are provided: resources/data.sql
+Exmaple file are provided in: src/resources/data.sql
 
 
 **3. Change mysql username and password as per your installation**
