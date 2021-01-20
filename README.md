@@ -71,6 +71,11 @@ Add player
 
     POST /api/v1/player
     
+    {
+    "player":"hamed",
+    "score": 100,
+    "time":"2021-02-20 10:10:00"
+    }
     
 
 You can test them using postman or any other rest client.
