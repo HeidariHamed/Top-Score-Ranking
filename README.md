@@ -51,7 +51,7 @@ The app will start running at <http://localhost:8080>.
 
 The app defines following APIs.
 
-Get Score
+Get score
 
     GET /api/v1/player/{id}
     
@@ -67,7 +67,7 @@ Player's history
     
     GET /api/v1/player/{player}
     
-Add Player
+Add player
 
     POST /api/v1/player
     
