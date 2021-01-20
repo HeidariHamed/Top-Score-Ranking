@@ -23,6 +23,8 @@ git clone https://github.com/HeidariHamed/Top-Score-Ranking.git
 ```bash
 create database game
 ```
+Exmaple file are provided: resources/data.sql
+
 
 **3. Change mysql username and password as per your installation**
 
@@ -47,7 +49,7 @@ The app will start running at <http://localhost:8080>.
 
 ## Explore Rest APIs
 
-The app defines following CRUD APIs.
+The app defines following APIs.
 
 Get Score
 
