@@ -1,7 +1,7 @@
 # Top Score Game
 
 Basic Java Spring Test: Top Score Ranking
-Build Restful API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Hibernate.
+Build Restful API for a simple Note-Taking application using Spring Boot, Mysql, JPA and Gradle.
 
 ## Requirements
 
