@@ -24,7 +24,7 @@ public class GameServiceImpl implements GameService {
 
     private GameRepository gameRepository;
 
-    @Autowired
+    //@Autowired
     public GameServiceImpl(GameRepository gameRepository) {
         this.gameRepository = gameRepository;
     }
