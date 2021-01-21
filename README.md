@@ -65,7 +65,7 @@ Get list of score
     
 Player's history
     
-    GET /api/v1/player/{player}
+    GET /api/v1/history/{player}
     
 Add player
 
