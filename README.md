@@ -61,7 +61,7 @@ Delete score
     
 Get list of score
 
-    GET /api/v1/list?name=hamed&after=2017-01-01&befre=2020-01-01
+    GET /api/v1/list?name=hamed&after=2017-01-01&before=2020-01-01
     
 Player's history
     
